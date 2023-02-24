@@ -1,5 +1,6 @@
 # Copyright (c) Microsoft Corporation. All rights reserved.
 # Licensed under the MIT License.
+# refer: https://github.com/microsoft/BotBuilder-Samples/blob/main/samples/python/02.echo-bot/app.py
 
 import sys
 import traceback
