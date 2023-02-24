@@ -23,5 +23,7 @@ git clone https://github.com/MSKoreaBotSupportTeam/BotFramework.git
 
 ## 환경 설정
 (TBD)
+- Visual Studio에서 Bot Framework v4 개발 툴킷 
+  [Bot Framework v4 SDK Templates for Visual Studio](https://marketplace.visualstudio.com/items?itemName=BotBuilder.botbuilderv4)
 
 
