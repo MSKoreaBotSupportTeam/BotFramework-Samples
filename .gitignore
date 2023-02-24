@@ -1,0 +1,7 @@
+/.vscode
+/venv
+
+
+/ko/csharp_dotnet/.vs
+/ko/csharp_dotnet/1-Echobot/bin/Debug/net8.0
+/ko/csharp_dotnet/1-Echobot/obj
