@@ -9,7 +9,7 @@ Examples with latest .Net version and bot framework
 To use samples, clone this Github repository using Git:
 
 ```
-git clone https://github.com/MSKoreaBotSupportTeam/BotFramework.git
+git clone https://github.com/MSKoreaBotSupportTeam/BotFramework-Samples.git
 ```
 
 | Title | Description |

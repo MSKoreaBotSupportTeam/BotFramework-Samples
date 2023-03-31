@@ -3,13 +3,13 @@
 
 ## Overview
 Examples with latest .Net version and bot framework
- 예제
+ 예제 
 
 ## Getting the samples
 To use samples, clone this Github repository using Git:
 
 ```
-git clone https://github.com/MSKoreaBotSupportTeam/BotFramework.git
+git clone https://github.com/MSKoreaBotSupportTeam/BotFramework-Samples.git
 ```
 
 | Title | Description |
