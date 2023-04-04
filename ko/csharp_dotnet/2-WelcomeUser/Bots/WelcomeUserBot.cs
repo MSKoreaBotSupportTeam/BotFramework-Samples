@@ -21,7 +21,7 @@ namespace Microsoft.BotBuilderSamples
     public class WelcomeUserBot : ActivityHandler
     {
         // Messages sent to the user.
-        private const string WelcomeMessage = "웰컴봇 샘플입니다. 사용자가 봇에 접속할때 먼저 인사를 하고는 예제이며, " +
+        private const string WelcomeMessage = "웰컴봇 샘플입니다. 사용자가 봇에 접속할때 먼저 인사를 하는 예제이며, " +
                                             "본 예제에 포함된 명령어는 hi, help 입니다. " +
                                             "hi 를 입력한 경우 echo 로 사용자가 입력한 hi 를 다시 출력해 줍니다." +
                                             "help 를 입력하면 간단한 HeroCard 를 출력합니다." +
@@ -78,7 +78,7 @@ namespace Microsoft.BotBuilderSamples
             // 사용자 상태를 저장하기 위해 사용자의 상태속성접근자 선언(싱글톤 수명주기 동안)
             // !! 사용자 상태와 대화 상태는 세션처럼 관리되어야 하며 본 예제에서는 메모리에 저장합니다.
             //    스케일 아웃되는 패턴의 경우 메모리에서 관리 하는것 보다 Redis 캐시에서 관리되어야 하고, 상태값을 SetAsync(), GetAsync() 함수를 통해 변경하게 됩니다.  
-            //    상태 변경이 있는 경우 반드시 115번줄의 SetAsync()함수로 상태를 업데이트 해야 합니다.
+            //    상태 변경이 있는 경우 반드시 115번줄의 SaveChangesAsync()함수로 상태를 업데이트 해야 합니다.
             var welcomeUserStateAccessor = _userState.CreateProperty<WelcomeUserState>(nameof(WelcomeUserState));
             var didBotWelcomeUser = await welcomeUserStateAccessor.GetAsync(turnContext, () => new WelcomeUserState(), cancellationToken);
 
