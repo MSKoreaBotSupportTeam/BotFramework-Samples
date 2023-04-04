@@ -79,9 +79,14 @@ async def messages(req: Request) -> Response:
         return json_response(data=response.body, status=response.status)
     return Response(status=HTTPStatus.OK)
 
+async def get(ret: Request) -> Response:
+    return  Response(text="BotEmulator로 다음 URL에 접속하세요. http://localhost:3978/api/messages")
 
 APP = web.Application(middlewares=[aiohttp_error_middleware])
 APP.router.add_post("/api/messages", messages)
+
+APP.router.add_get("/", get)
+
 
 if __name__ == "__main__":
     try:

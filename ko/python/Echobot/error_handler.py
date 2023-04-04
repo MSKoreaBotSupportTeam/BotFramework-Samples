@@ -1,4 +1,12 @@
+import sys
+import traceback
+from datetime import datetime
 from botbuilder.schema import Activity, ActivityTypes
+from botbuilder.core import (
+    
+    TurnContext,
+    BotFrameworkAdapter
+)
 
 # Catch-all for errors.
 async def on_error(context: TurnContext, error: Exception):

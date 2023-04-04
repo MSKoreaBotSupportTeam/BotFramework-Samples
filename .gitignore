@@ -1,5 +1,6 @@
 /.vscode
 /venv
+/__pycache__
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
@@ -27,10 +28,13 @@ wheels/
 .installed.cfg
 *.egg
 MANIFEST
+venv/
+
 
 .vscode/
 # Byte-compiled / optimized / DLL files
 __pycache__/
+
 *.py[cod]
 
 # C extensions
