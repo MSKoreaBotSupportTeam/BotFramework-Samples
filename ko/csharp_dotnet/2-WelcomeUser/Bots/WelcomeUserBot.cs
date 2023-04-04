@@ -120,7 +120,7 @@ namespace Microsoft.BotBuilderSamples
             var card = new HeroCard
             {
                 Title = "안녕하세요!",
-                Subtitle = "환영 인사 예제 봇 입니다. 본 카드는 HeroCard 이며  버튼을 통해 외부링크를 열거나 텍스트를 입력 할 수 있습니다.",
+                Text = "환영 인사 예제 봇 입니다. 본 카드는 HeroCard 이며  버튼을 통해 외부링크를 열거나 텍스트를 입력 할 수 있습니다.",
                 Images = new List<CardImage>() { new CardImage("https://microsoft.github.io/botframework-solutions/assets/images/icons/virtual-assistant.png") },
                 Buttons = new List<CardAction>()
                 {
