@@ -12,8 +12,8 @@ git clone https://github.com/MSKoreaBotSupportTeam/BotFramework.git
 
 | 제목 | 내용 |
 |---------|---------|
-| [1-Echo bot](csharp_dotnet/1-Echobot) | .NET 7 로 작성하는 Echo Bot |
-| [2-Welcome user](csharp_dotnet/2-WelcomeUser) | 사용자에게 환영 메시지를 보내는 방법|
+| [1-Echo bot](./1-Echobot) | .NET 7 로 작성하는 Echo Bot |
+| [2-Welcome user](./2-WelcomeUser) | 사용자에게 환영 메시지를 보내는 방법|
 | 3-Adaptive cards | 다양한 AdaptiveCards 예제 및 이벤트 처리 방법|
 | 4-CQA bot | Custom Question Answering 을 이용한 봇 |
 | 5-CLU bot | Conversational Language Understanding 을 이용한 봇 |
