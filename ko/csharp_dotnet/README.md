@@ -19,7 +19,7 @@ git clone https://github.com/MSKoreaBotSupportTeam/BotFramework.git
 | 5-CLU bot | Conversational Language Understanding 을 이용한 봇 |
 | 6-Teams bot | Teams 에 유용한 봇 기능 |
 | 7-ChatGPT bot | ChatGPT API 를 이용한 봇 |
-| 8-Azure OpenAI bot | Azure OpenAI 를 이용한 나만의 Knowledge base 를 구축하는 예제 |
+| [8-Azure OpenAI bot](./8-AzureOpenAIBot) | Azure OpenAI 를 이용한 나만의 Knowledge base 를 구축하는 예제 |
 
 ## 환경 설정
 (TBD)
