@@ -92,3 +92,6 @@ docs/_build/
 /ko/csharp_dotnet/1-Echobot/obj
 /ko/csharp_dotnet/2-WelcomeUser/obj
 /ko/csharp_dotnet/AzureOpenAIBot/appsettings.local.json
+/ko/csharp_dotnet/8-AzureOpenAIBot/obj
+/ko/csharp_dotnet/8-AzureOpenAIBot/appsettings.local.json
+/ko/csharp_dotnet/8-AzureOpenAIBot/appsettings.local.Development.json
